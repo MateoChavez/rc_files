@@ -1,6 +1,10 @@
 " Vim configuration file
 " Created by Mateo Chavez: mateo.chavez.esp@gmail.com
 " 
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
 set number
 set tabstop=4
 set expandtab
@@ -8,10 +12,22 @@ set expandtab
 " -----------------------------------------------------
 " Key mapping
 "-----------------------------------------------------
-" Tab management
-map <c-up> :tabr<cr>
-map <c-down> :tabl<cr>
-map <c-left> :tabp<cr>
-map <c-right> :tabn<cr>
-map <tab> :tabedit .<cr>
 
+" Tab management
+map ↓ :tabr <cr>
+map π :tabl <cr>
+map → :tabp <cr>
+map œ :tabn <cr>
+map n :tabedit <cr>
+
+map <tab> :tabedit . <cr>
+map 0<tab> 0gt
+map 1<tab> 1gt
+map 2<tab> 2gt
+map 3<tab> 3gt
+map 4<tab> 4gt
+map 5<tab> 5gt
+map 6<tab> 6gt
+map 7<tab> 7gt
+map 8<tab> 8gt
+map 9<tab> 9gt
