@@ -1,7 +1,14 @@
 " Vim configuration file
 " Created by Mateo Chavez: mateo.chavez.esp@gmail.com
-" 
+
+
+" Screw vi compatibility
+set nocompatible
+
+" Plugin manager
 execute pathogen#infect()
+
+" Some cool stuff
 syntax on
 filetype plugin indent on
 
@@ -9,16 +16,39 @@ set number
 set tabstop=4
 set expandtab
 
+" Show trailing white space
+set listchars=tab:>-,trail:-
+
+
+" -----------------------------------------------------
+" Fuzzy finder behavior
+"------------------------------------------------------
+
+" Search down into sub-folders when using find
+" Provides tab-completion for all file-related tasks
+set path+=**
+
+" Display all posibilities when using find and a wildcharacter
+" to search files
+set wildmenu
+
+
+" -----------------------------------------------------
+" Tag jumping
+"------------------------------------------------------
+command! MakeTags !ctags -R .
+
+
 " -----------------------------------------------------
 " Key mapping
-"-----------------------------------------------------
+"------------------------------------------------------
 
 " Tab management
 map ↓ :tabr <cr>
 map π :tabl <cr>
 map → :tabp <cr>
 map œ :tabn <cr>
-map n :tabedit <cr>
+map n<tab> :tabedit <cr>
 
 map <tab> :tabedit . <cr>
 map 0<tab> 0gt
@@ -31,3 +61,4 @@ map 6<tab> 6gt
 map 7<tab> 7gt
 map 8<tab> 8gt
 map 9<tab> 9gt
+
