@@ -1,7 +1,6 @@
 " Vim configuration file
 " Created by Mateo Chavez: mateo.chavez.esp@gmail.com
 
-
 " Screw vi compatibility
 set nocompatible
 
@@ -17,6 +16,7 @@ set tabstop=4
 set expandtab
 
 " Show trailing white space
+set list
 set listchars=tab:>-,trail:-
 
 
@@ -31,6 +31,12 @@ set path+=**
 " Display all posibilities when using find and a wildcharacter
 " to search files
 set wildmenu
+
+" -----------------------------------------------------
+" Grep configuration
+"------------------------------------------------------
+set grepprg=grep\ -n\ $*
+nmap gø :grep -R -H <cword> --include=*.{py,txt,sh,c,h}<cr>
 
 
 " -----------------------------------------------------
