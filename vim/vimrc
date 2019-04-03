@@ -32,11 +32,14 @@ set path+=**
 " to search files
 set wildmenu
 
+
 " -----------------------------------------------------
 " Grep configuration
 "------------------------------------------------------
 set grepprg=grep\ -n\ $*
 nmap gø :grep -R -H <cword> --include=*.{py,txt,sh,c,h}<cr>
+nmap ø :cn<cr>
+nmap æ :cp<cr>
 
 
 " -----------------------------------------------------
