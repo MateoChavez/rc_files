@@ -5,7 +5,14 @@
 sudo apt-get install tree
 
 #######################################################
-#                 Vim related programs
+#                 I3 RELATED PROGRAMS
+#######################################################
+
+sudo apt-get install lxappearance
+
+
+#######################################################
+#                 VIM RELATED PROGRAMS
 #######################################################
 sudo apt-get install ctags
 
