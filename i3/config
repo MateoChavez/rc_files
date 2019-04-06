@@ -124,7 +124,7 @@ bindsym $mod+Shift+0 move container to workspace $workspace10
 
 # forcing certain programs into certain workspaces
 assign [class="Google-chrome"] $workspace1
-assign [class="Gnome-terminal"] $workspace2
+#assign [class="Gnome-terminal"] $workspace2
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -242,6 +242,6 @@ exec compton -f
 
 # execute
 exec_always dropbox start
-exec_always feh --bg-scale /home/mateo/Pictures/wallpaper.jpeg
+exec_always feh --bg-scale ~/Pictures/wallpaper.jpeg
 exec setxkbmap -option caps:swapescape
 
