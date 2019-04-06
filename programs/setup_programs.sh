@@ -26,6 +26,9 @@ sudo apt-get install compton
 # feh: setup wallpaper on screen
 sudo apt-get install feh
 
+# i3blocks: status bar output
+sudo apt-get install i3blocks
+
 # lxappearance: configure gtk fonts
 sudo apt-get install lxappearance
 
