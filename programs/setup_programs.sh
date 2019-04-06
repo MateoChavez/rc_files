@@ -20,6 +20,9 @@ cd ~/repositories/git/arc-theme
 sudo make install
 cd -
 
+# compton: support for transparent windows
+sudo apt-get install compton
+
 # feh: setup wallpaper on screen
 sudo apt-get install feh
 
