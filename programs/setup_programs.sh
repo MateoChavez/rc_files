@@ -26,6 +26,9 @@ sudo apt-get install compton
 # feh: setup wallpaper on screen
 sudo apt-get install feh
 
+# font-awesome: installs cool fonts
+sudo apt-get install fonts-font-awesome
+
 # i3blocks: status bar output
 sudo apt-get install i3blocks
 
