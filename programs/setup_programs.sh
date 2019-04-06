@@ -29,6 +29,9 @@ sudo apt-get install lxappearance
 # playerctl: control media and volume keys
 sudo dpkg -i dpkg_files/playerctl-2.0.2_amd64.deb
 
+# rofi: alternative menu to d_menu
+sudo apt-get install rofi
+
 # thunar: alternative file explorer since nautilus doesn't work
 sudo apt-get install thunar
 
