@@ -1,0 +1,12 @@
+// Swap the left Alt and Win keys.
+partial modifier_keys
+xkb_symbols "i3swap" {
+    key <LALT> { type[Group1] = "ONE_LEVEL",
+                 symbols[Group1] = [ Super_L ] };
+    key <RALT> { [ Alt_L, Meta_L ] };
+
+    key <ESC>  { [ Caps_Lock ] };
+    key <CAPS> { [ Control_L ] };
+    key <LCTL> { [ Escape ] };
+};
+
