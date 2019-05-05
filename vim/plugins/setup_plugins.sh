@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
-# Set up pathogen
+# create directories for plugins
+mkdir ~/.vim/autoload
+mkdir ~/.vim/bundle
+
+# set up pathogen for plugin management
 cp pathogen.vim ~/.vim/autoload/
 
