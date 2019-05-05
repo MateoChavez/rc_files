@@ -16,6 +16,6 @@ mkdir ~/.xkb
 mkdir ~/.xkb/symbols
 mkdir ~/.xkb/keymap
 
-cp xkb/i3swap /.xkb/symbols
-cp xkb/i3kbd /.xkb/keymap
+cp xkb/i3swap ~/.xkb/symbols/.
+cp xkb/i3kbd ~/.xkb/keymap/.
 
