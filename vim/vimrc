@@ -60,7 +60,7 @@ map → :tabp <cr>
 map œ :tabn <cr>
 map n<tab> :tabedit <cr>
 
-map <tab> :tabedit . <cr>
+map <tab> :tabfind
 map 0<tab> 0gt
 map 1<tab> 1gt
 map 2<tab> 2gt
