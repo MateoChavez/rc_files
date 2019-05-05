@@ -38,9 +38,10 @@ set wildmenu
 " Grep configuration
 "------------------------------------------------------
 set grepprg=grep\ -n\ $*
-nmap gø :grep -R -H <cword> --include=*.{py,txt,sh,c,h}<cr>
+nmap gø :grep -R -H <cword> --include=*.{py,txt,sh,c,h}<cr> :copen<cr>
 nmap ø :cn<cr>
 nmap æ :cp<cr>
+nmap ggø :cclose<cr>
 
 
 " -----------------------------------------------------
