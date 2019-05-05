@@ -58,7 +58,6 @@ map ↓ :tabr <cr>
 map π :tabl <cr>
 map → :tabp <cr>
 map œ :tabn <cr>
-map n<tab> :tabedit <cr>
 
 map <tab> :tabfind
 map 0<tab> 0gt
