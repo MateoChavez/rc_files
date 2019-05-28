@@ -9,6 +9,7 @@ execute pathogen#infect()
 
 " Some cool stuff
 syntax on
+colorscheme monokai
 filetype plugin indent on
 
 set number
