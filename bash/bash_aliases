@@ -1,0 +1,3 @@
+# get terminal output into clipboard
+alias copy='xclip -sel clip'
+
