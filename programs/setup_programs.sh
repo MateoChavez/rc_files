@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
 
-# Display cool folder-trees
+# display cool folder-trees
 sudo apt-get install tree
 
+# get terminal output into clipboard
+sudo apt install xclip
 
 #######################################################
 #                 I3 RELATED PROGRAMS
