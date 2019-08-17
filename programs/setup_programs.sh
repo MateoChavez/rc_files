@@ -54,5 +54,10 @@ sudo apt-get install xbacklight
 #######################################################
 #                 VIM RELATED PROGRAMS
 #######################################################
+
+# tags for programming
 sudo apt-get install ctags
+
+# latex
+sudo apt install texlive-full
 
