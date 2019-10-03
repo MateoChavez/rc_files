@@ -15,3 +15,6 @@ unzip emmet-vim.zip -d ~/.vim/bundle/emmet/
 unzip vim-surround-master.zip -d ~/.vim/bundle/
 mv ~/.vim/bundle/vim-surround-master ~/.vim/bundle/surround/
 
+# setup vimtex
+unzip vimtex-master.zip -d ~/.vim/bundle/vimtex
+
